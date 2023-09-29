@@ -1,6 +1,10 @@
 __pycache__/
 archives/
 static/assets/
+static/js/assetFetcher.js
+static/js/leafletmap.js
+static/js/SliderControl_next.js
+static/js/SliderControl.js
 templates/index.html
 test_new_geo/
 *.csv
