@@ -1,0 +1,54 @@
+  
+  //Remove markers and populate
+  // console.log(obj);
+  // if (!(obj.trip_id in buses)) {
+  //   markers = [];
+  //   marker1 = circleMarkerText([obj.latitude, obj.longitude], obj, 0.25, 0.25, 'circle1').addTo(mymap).bindPopup(popUpContent(obj));
+  //   // marker1 = L.marker([obj.latitude, obj.longitude], options(obj)).addTo(mymap).bindPopup(popUpContent(obj));
+  //   markers.push(marker1);
+  //   buses[obj.trip_id] = markers;
+  // } else {
+  //   markers = buses[obj.trip_id];
+  //   for (var i = 0; i < markers.length; i ++) {
+  //       mymap.removeLayer(markers[i]);
+  //   }
+  //   let newMarkers = [];
+  //   marker1 = circleMarkerText([obj.latitude, obj.longitude], obj, 0.25, 0.25, 'circle1').addTo(mymap).bindPopup(popUpContent(obj));
+  //   // marker1 = L.marker([obj.latitude, obj.longitude], options(obj)).addTo(mymap).bindPopup(popUpContent(obj));
+  //   newMarkers.push(marker1);
+  //   buses[obj.trip_id] = newMarkers;
+  // }
+  
+  // LayerControl Remove!!! BUGGY
+  // if (!(obj.trip_id in buses)) {
+  //   let markers = [];
+  //   // marker1 = circleMarkerText([obj.latitude, obj.longitude], obj, 0.25, 0.25, 'circle1').addTo(mymap).bindPopup(popUpContent(obj));
+  //   let marker1 = circleMarkerText([obj.latitude, obj.longitude], obj, 0.25, 0.25, 'circle1');
+  //   // marker1 = L.marker([obj.latitude, obj.longitude], options(obj)).addTo(mymap).bindPopup(popUpContent(obj));
+  //   markers.push(marker1);
+  //   ////  PROBLEM MAY LIE HERE!!!!
+  //   let myGroup = L.layerGroup(markers).addTo(mymap).bindPopup(popUpContent(obj));
+  //   buses[obj.trip_id] = myGroup;
+  // } else {
+  //   // markers = buses[obj.trip_id];
+  //   // for (var i = 0; i < markers.length; i ++) {
+  //   //     mymap.removeLayer(markers[i]);
+  //   // }
+  //   // marker1 = circleMarkerText([obj.latitude, obj.longitude], obj, 0.25, 0.25, 'circle1').addTo(mymap).bindPopup(popUpContent(obj));
+  //   // // marker1 = L.marker([obj.latitude, obj.longitude], options(obj)).addTo(mymap).bindPopup(popUpContent(obj));
+  //   // markers.push(marker1);
+  //   // buses[obj.trip_id] = markers;
+
+  //   let myGroups = buses[obj.trip_id];
+  //   // for (var i = 0; i < myGroups.length; i ++) {
+  //   myGroups.clearLayers();
+  //   mymap.removeLayer(myGroups);
+  //   // mymap.remove();
+  //   // }
+  //   let markers = [];
+  //   marker1 = circleMarkerText([obj.latitude, obj.longitude], obj, 0.25, 0.25, 'circle1');
+  //   markers.push(marker1);
+  //   let newGroup = L.layerGroup(markers).addTo(mymap).bindPopup(popUpContent(obj));
+  //   buses[obj.trip_id] = newGroup;
+  // }
+

@@ -1,0 +1,7 @@
+__pycache__/
+archives/
+static/assets/
+templates/index.html
+test_new_geo/
+*.csv
+*.json
