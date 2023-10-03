@@ -104,7 +104,8 @@ if __name__ == "__main__":
         consumer_thread.start()
 
         print("Starting server...")
-        app.run(port=5001, debug=True, use_reloader=False)
+        # app.run(port=5001, debug=True, use_reloader=False)
+        app.run(port=3005, host='0.0.0.0', use_reloader=False, debug=False)
     except KeyboardInterrupt:
         consumer_thread.join()
         try:
